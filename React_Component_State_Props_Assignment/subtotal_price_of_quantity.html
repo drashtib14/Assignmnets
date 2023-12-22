@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }        
+
+        table {
+            border-collapse: collapse;
+            margin: 100px auto;
+            border: 2px solid;
+        }
+
+        #prd1,
+        #prd2 {
+            height: 20px;
+            width: 100px;
+        }
+
+
+
+
+        a {
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            color: #000;
+            text-transform: uppercase;
+        }
+
+        .btn {
+            text-decoration: none;
+            border: 1px solid;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+
+
+        th,
+        td {
+            padding: 20px;
+            margin: 5px;
+
+            border: 2px solid;
+        }
+
+        caption {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <caption><strong>Advance JS Assignment</strong></caption>
+        <tr>
+            <th>Product Info</th>
+            <th>Quantity</th>
+            <th>Price <small>(per unit)</small></th>
+            <th>Price <small>(subtotal)</small></th>
+            <th></th>
+        </tr>
+
+
+        <tr>
+            <td>Product one</td>
+            <td><input type="number" min="0" max="10" id="prd1" onchange="total()"></td>
+            <td>$29.99</td>
+            <td>$<span id="spn1">0</span></td>
+            <td>
+                <a href="#" class="btn" onclick="prd_remove_1()">Remove</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Product Two</td>
+            <td><input type="number" min="0" max="10" id="prd2" onchange="total()"></td>
+            <td>$12.99</td>
+            <td>$<span id="spn2">0</span></td>
+            <td>
+                <a href="#" class="btn" onclick="prd_remove_2()">Remove</a>
+            </td>
+        </tr>
+
+
+        <tr>
+
+            <td colspan="4" align="right"><strong>Total =</strong> </td>
+            <td>$<span id="total" onchange="total()">0</span></td>
+        </tr>
+    </table>
+
+
+    <script>
+
+      let prd1 = document.getElementById('prd1');
+      let prd2 = document.getElementById('prd2');
+      let spn1 = document.getElementById('spn1');
+      let spn2 = document.getElementById('spn2');
+  
+  
+  
+      function total() {
+          prd_one = prd1.value * 29.99;
+          document.getElementById('spn1').innerHTML = prd_one;
+  
+          prd_two = prd2.value * 12.99;
+          document.getElementById('spn2').innerHTML = prd_two;
+  
+          grand_total = prd_one + prd_two;
+          document.getElementById('total').innerHTML = grand_total;
+      }
+  
+      function prd_remove_1() {
+          if (prd1.value > 0) {
+              prd1.value = prd1.value - 1;
+  
+              after_remove_prd1 = prd1.value * 29.99;
+              after_remove_prd2 = prd2.value * 12.99;
+  
+  
+              after_total = after_remove_prd1 + after_remove_prd2;
+  
+              spn1.innerHTML = after_remove_prd1;
+  
+              document.getElementById('total').innerHTML = after_total
+          }
+      }
+  
+      function prd_remove_2() {
+  
+          if (prd2.value > 0) {
+              prd2.value = prd2.value - 1;
+              after_remove_prd1 = prd1.value * 29.99;
+              after_remove_prd2 = prd2.value * 12.99;
+  
+              after_total = after_remove_prd1 + after_remove_prd2;
+  
+              spn2.innerHTML = after_remove_prd2;
+  
+              document.getElementById('total').innerHTML = after_total;
+          }
+  
+      }
+  
+  
+  </script>
+
+</body>
+
+</html> 
+
