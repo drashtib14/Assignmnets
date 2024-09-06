@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background: linear-gradient(45deg,rgba(200, 32, 99, 0.531),rgba(255, 166, 0, 0.728)),url(./img/mountain2.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+    background: #fff;
+    min-width: 45%;
+    border-radius: 10px;
+    padding: 50px 70px;
+}
+
+span{
+    position: relative;
+}
+
+span::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 27px;
+    height: 3px;
+    background: linear-gradient(to right,rgba(200, 32, 99, 0.531),rgba(255, 166, 0, 0.728));
+}
+
+.regi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.regi input{
+    margin-top: 7px;
+}
+
+input{
+    padding: 7px;
+    box-shadow: 1px 1px 1px 1px rgb(221, 221, 221);
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6a11cb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+}
+
+.sec3 input{
+    box-shadow: none;
+}
+
+.gen label{
+    padding-right: 45px;
+}
+
+button{
+    color: aliceblue;
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background: linear-gradient(to left,rgba(200, 32, 99, 0.531),rgba(255, 166, 0, 0.728));
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition:2s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right,rgba(200, 32, 99, 0.531),rgba(255, 166, 0, 0.728));
+    transform: scale(1.04);
+}
