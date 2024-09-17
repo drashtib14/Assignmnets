@@ -1,0 +1,47 @@
+-- Create table given below: Salesperson and Customer
+
+CREATE TABLE SALESPERSON 
+(
+SNO INT PRIMARY KEY,
+SNAME VARCHAR(45) NOT NULL,
+CITY VARCHAR(45) NOT NULL,
+COMM FLOAT NOT NULL
+);
+
+INSERT INTO SALESPERSON VALUES
+(1001,'Peel','London',0.12),
+(1002,'Serres','San Jose',0.13),
+(1004,'Motika','London',0.12),
+(1007,'Rafkin','Barcelona',0.12),
+(1003,'Axelrod','New York',0.12);
+
+CREATE TABLE CUSTOMER
+(
+CNM INT PRIMARY KEY,
+CNAME VARCHAR(45) NOT NULL,
+CITY VARCHAR(45) NOT NULL,
+RATING INT NOT NULL,
+SNO INT NOT NULL,
+foreign key(SNO) references SALESPERSON(SNO)
+); 
+
+INSERT INTO CUSTOMER VALUES
+(201,'Hoffman','London',100,1001),
+(202,'Givonne','Roe',200,1003),
+(203,'Liu','San Jose',300,1002),
+(204,'Grass','Barcelona',100,1002),
+(206,'Clemens','London',300,1007),
+(207,'Pereira','Roe',100,1004);
+
+ALTER TABLE customer
+ADD COLUMN price INT NOT NULL;
+
+UPDATE customer SET price = 500 WHERE CNM = 201;
+UPDATE customer SET price = 700 WHERE CNM = 202;
+UPDATE customer SET price = 900 WHERE CNM = 203;
+UPDATE customer SET price = 1200 WHERE CNM = 204;
+UPDATE customer SET price = 1400 WHERE CNM = 206;
+UPDATE customer SET price = 800 WHERE CNM = 207;
+
+SELECT * FROM SALESPERSON;
+SELECT * FROM CUSTOMER;
