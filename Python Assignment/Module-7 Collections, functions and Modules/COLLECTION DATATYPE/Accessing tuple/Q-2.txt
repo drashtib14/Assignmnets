@@ -1,0 +1,29 @@
+Q - Slicing a tuple to access ranges of elements.
+
+The syntax for slicing a tuple is:
+    tuple_name[start:end:step]
+the step for slicing a tuple is optional.
+
+--------------------------------------------------------------------------------------------------------
+Slicing tuple :
+
+my_tuple = ('apple', 'banana', 'cherry', 'date', 'fig', 'grape')
+
+# from 1 to 4
+print(my_tuple[1:4])  # Output: ('banana', 'cherry', 'date')
+
+# from 0 to 3
+print(my_tuple[:3])   # Output: ('apple', 'banana', 'cherry')
+
+# from 2 to the end
+print(my_tuple[2:])   # Output: ('cherry', 'date', 'fig', 'grape')
+
+# for entire tuple
+print(my_tuple[:])    # Output: ('apple', 'banana', 'cherry', 'date', 'fig', 'grape')
+
+Negative indexing :
+# from -4 to -1
+print(my_tuple[-4:-1])  # Output: ('cherry', 'date', 'fig')
+
+# from -3 to the end
+print(my_tuple[-3:])    # Output: ('date', 'fig', 'grape')

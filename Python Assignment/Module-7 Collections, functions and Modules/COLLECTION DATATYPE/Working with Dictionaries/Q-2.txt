@@ -1,0 +1,23 @@
+Q - Merging two lists into a dictionary using loops or zip().
+
+1) using loops :
+
+keys = ["name", "age", "city"] # list
+values = ["Alice", 25, "New York"] # list
+
+merged_dict = {} # a dictionary
+for i in range(len(keys)):
+    merged_dict[keys[i]] = values[i]
+
+print(merged_dict)
+
+--------------------------------------------------------------------------------------------------------
+2) using zip() :
+
+keys = ["name", "age", "city"] # list
+values = ["Alice", 25, "New York"] # list
+
+# Using zip() to create a dictionary
+merged_dict = dict(zip(keys, values))
+
+print(merged_dict) # {'name': 'Alice', 'age': 25, 'city': 'New York'}

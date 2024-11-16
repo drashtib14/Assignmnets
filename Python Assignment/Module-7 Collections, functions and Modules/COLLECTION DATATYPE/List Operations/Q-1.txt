@@ -1,0 +1,31 @@
+Q - Common list operations: concatenation, repetition, membership.
+
+1) Concatenation : Concatenation is used to combine two or more lists into a single list. 
+This is done using the + operator.
+
+Code :
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+combined_list = list1 + list2
+print(combined_list) # Output: [1, 2, 3, 4, 5, 6]
+-----------------------------------------------------------------------------------------------------
+
+2) Repetition : Repetition is used to repeat the elements of a list a specified number of times. 
+This is done using the * operator.
+
+Code :
+list1 = [1, 2, 3]
+
+repeted_elements = list1 * 3
+print(repeted_elements) # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
+-----------------------------------------------------------------------------------------------------
+
+3) Membership : Membership checks if a specific element exists within a list. 
+This is done using the in operator, which returns True if the element is found, and False otherwise.
+
+Code :
+my_list = ['apple', 'banana', 'cherry']
+
+print('cherry' in my_list) # Output : True
+print('mango' in my_list) # Output : False

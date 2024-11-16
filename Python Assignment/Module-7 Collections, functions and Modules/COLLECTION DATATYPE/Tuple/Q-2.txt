@@ -1,0 +1,20 @@
+Q - Creating and accessing elements in a tuple.
+
+1) Creating tuple:
+
+There's 2 ways to create tuple.
+by using () round brackets or
+by using tuple() constructor.
+
+
+    my_tuple = (1, 2, 3, "apple", "banana")
+
+    my_tuple = tuple((1, 2, 3, "apple", "banana")) # by using tuple()
+--------------------------------------------------------------------------------------------------------
+
+2) Accessing tuple: Tuples are indexed. Elements in a tuple have a defined order, so each item has an index starting from 0.
+
+my_tuple = ("apple", "banana", "cherry")
+print(my_tuple[0])  # Output: 'apple'
+print(my_tuple[2])  # Output: 'cherry'
+print(my_tuple[-1])  # Output: 'cherry'

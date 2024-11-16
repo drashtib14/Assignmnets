@@ -1,0 +1,15 @@
+Q - Introduction to tuples, immutability.
+
+Tuples are known due to immutability which makes a tuple faster than lists.
+
+Tuples allows you to store multiple items in a single variable.
+
+You can add multiple datatypes in tuple.
+
+Tuples are immutable, which means once you create a tuple, you cannot change, add, or remove its elements.
+
+Tuple items are ordered, unchangeable(immutable), and allow duplicate values.
+
+Tuples are indexed. Elements in a tuple have a defined order, so each item has an index starting from 0.
+
+This immutability makes tuples a bit more efficient in memory usage and provides added security for data that shouldn’t be modified.

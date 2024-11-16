@@ -1,0 +1,19 @@
+Q - Indexing in lists (positive and negative indexing).
+
+1) Positive indexing : Positive indexing starts from 0, then 1 2 and so on. 
+The first element of list is at 0 index and the second element is at 1 index.
+
+my_list = [10, 20, 30, 40]
+print(my_list[0])
+    this will print first element from the list which is 10 in the output.
+
+print(my_list[1])
+    this code will print 2nd position element of the list which is 20.
+
+2) Negative indexing : The negative indexing starts from -1, which will give you the last element from the list and -2 for second last element and so on.
+
+print(my_list[-1])
+    this will print 40 from the list.
+    
+print(my_list[-1])
+    this will print 30 from the list.

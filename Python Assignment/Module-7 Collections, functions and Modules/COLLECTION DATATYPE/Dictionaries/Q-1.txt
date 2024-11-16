@@ -1,0 +1,20 @@
+Q - Introduction to dictionaries: key-value pairs.
+
+Dictionary items are ordered, changeable, and do not allow duplicates.
+
+A dictionary is a powerful and versatile data structure that allows you to store data in key-value pairs.
+he key acts as an identifier for the value given to the key.
+
+Keys in a dictionary must be unique and immutable.
+
+it is represented by {} curly brackets.
+
+There's 2 ways to use dictionaries.
+
+1st way, using {} brackets:
+    my_dict = {
+        key : value
+        }
+
+2nd way, using dict() constructor:
+    my_dict = dict(key = value)

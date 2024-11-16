@@ -1,0 +1,39 @@
+Q - Basic list manipulations: addition, deletion, updating, and slicing.
+
+1) Addition : we can add elements to a list using methods like append(), insert(), or the + operator.
+
+Syntax :
+using append():
+    list.append(element)
+
+using insert():
+    list.insert(index, element)
+
+using + concatenate lists:
+    my_list = list1 + list2
+------------------------------------------------------------------------------------------------------
+
+2) Deletion : Elements can be removed from a list using methods like remove(), pop(), or del.
+
+Syntax :
+uisng remove():
+    list.remove(element)
+
+using pop():
+    list.pop(index)
+
+using del keyword:
+    del list[element]
+------------------------------------------------------------------------------------------------------
+
+3) Updating : list items can be directly updated by assigning new values to specific index value.
+
+Syntax:
+directly assigning value to indexed position:
+    list[index] = element
+------------------------------------------------------------------------------------------------------
+
+4) Slicing : Slicing allows you to access a range of elements in a list, creating a new list with the selected elements.
+
+Syntax :
+    another_list = list[1:4]

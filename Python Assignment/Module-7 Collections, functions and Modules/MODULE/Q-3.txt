@@ -1,0 +1,33 @@
+Q - Creating custom modules.
+
+A custom module can be made in a python file (.py), which is also called as user-defined module.
+
+--------------------------------------------------------------------------------------------------------
+Steps to Create and Use a Custom Module :
+
+1) Create the Module File : 
+    create a python file and write your code in this file then save the file in the same directory as the main program.
+
+2) Import and call function in main code file :
+    import the file or functions from the module file, then call the function or variable to use them.
+
+--------------------------------------------------------------------------------------------------------
+e.g:
+# my_module.py
+
+# displays a greeting msg with user's name
+def greet(name):
+    return (f"Hello, {name}!")
+
+# addition of 2 numbers
+def add_numbers(a, b):
+    return a + b
+
+PI = 3.14159 # value of PI
+
+# main.py
+import my_module
+
+print(my_module.greet("Alice"))       # Output: Hello, Alice!
+print(my_module.add_numbers(5, 7))   # Output: 12
+print(my_module.PI)                  # Output: 3.14159

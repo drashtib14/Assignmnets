@@ -1,0 +1,12 @@
+Q - Different types of functions: with/without parameters, with/without return values.
+
+There are 2 TYPES of functions.
+    1. built-in function (which are predefined by python) eg. print(), input(), len() ...functions
+
+    2. user-defined function (which is created by user for own purpose)
+    
+There're 4 types of CATEGORIES of function.
+    1. function without parameter and without return type
+    2. function with parameter and without return type
+    3. function without parameter and with return type
+    4. function with parameter and with return type

@@ -1,0 +1,28 @@
+Q - Understanding list methods like append(), insert(), remove(), pop().
+
+1) append() : it adds a single element to the end of the list.
+
+Syntax :
+    list.append(element)
+
+-----------------------------------------------------------------------------------------------------
+
+2) insert() : it inserts an element at a specific position (index) in the list.
+
+Syntax :
+    list.insert(index, element)
+-----------------------------------------------------------------------------------------------------
+
+3) remove() : it removes first occurrence of a specified element from the list.
+If there is an element which is more than one in the list, when executing it removes the first found element from the list.
+
+Syntax :
+    list.remove(element)
+-----------------------------------------------------------------------------------------------------
+
+4) pop() : it removes and returns an element at a specified index.
+it uses indexing to remove element.
+if there is no specified index then it remove last element by default.
+
+Syntax :
+    list.pop(index)

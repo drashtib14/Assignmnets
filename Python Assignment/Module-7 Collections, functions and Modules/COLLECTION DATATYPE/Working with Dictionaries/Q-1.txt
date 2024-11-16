@@ -1,0 +1,20 @@
+Q - Iterating over a dictionary using loops.
+
+There are multiple ways to get key, values and key-values pair.
+
+--------------------------------------------------------------------------------------------------------
+Code :
+
+person = {"name": "Alice", "age": 25, "city": "New York"}
+
+# to get keys
+for key in person:
+    print(key)
+
+# to get values
+for value in person.values():
+    print(value)
+
+# to get key-value pair
+for key,value in person.items():
+    print(f"{key}: {value}")

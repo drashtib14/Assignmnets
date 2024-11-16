@@ -1,0 +1,19 @@
+Q - Basic operations with tuples: concatenation, repetition, membership.
+
+1) concatenation : combine two or more tuples into a new tuple. You can use the + operator for this.
+
+result = tuple1 + tuple2
+
+--------------------------------------------------------------------------------------------------------
+
+2) repetition : Repetition allows you to repeat the elements in a tuple multiple times to create a new, larger tuple. By using * operator.
+
+result = tuple1 * 3
+--------------------------------------------------------------------------------------------------------
+
+3) membership : The membership operation checks whether an element exists within a tuple. The in and not in operators are used to test for membership. It returns a boolean value.
+
+my_tuple = ("apple", "banana", "cherry")
+
+print("banana" in my_tuple)     # Output: True
+print("grape" not in my_tuple)  # Output: True

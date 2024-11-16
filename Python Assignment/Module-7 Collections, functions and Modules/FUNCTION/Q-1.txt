@@ -1,0 +1,21 @@
+Q - Defining functions in Python.
+
+Function is a block of code which we can use again and again. 
+
+Function makes code easy to understand and reduces code.
+
+Function is used to manage large code and make code more readable.
+
+There are 2 steps to implement a function.
+    1. function definition : main block of code
+    2. function calling : to use function
+
+Function is declared by def keyword.
+
+Syntax:
+    # function definition
+    def func_name():
+        code to be executed
+
+    # function calling
+    func_name()

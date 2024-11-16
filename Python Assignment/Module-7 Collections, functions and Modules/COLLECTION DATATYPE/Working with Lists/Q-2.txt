@@ -1,0 +1,22 @@
+Q - Sorting and reversing a list using sort(), sorted(), and reverse().
+
+To organize elements inside a list sort() and sorted() are used.
+to flip/reverse order of elements inside a list reverse() is used.
+
+1) sort() Method :
+        sort() rearranges the elements in ascending order directly within the original list.
+
+Syntax :
+        list.sort()
+-------------------------------------------------------------------------------------------------------
+
+2) sorted() Function : Returns a new, sorted version of the list, leaving the original list unmodified.
+
+Syntax :
+        sorted(list)
+-------------------------------------------------------------------------------------------------------
+
+3) reverse() Method: Reverses the order of elements in the original list. it doesn't sort the items, it flips them.
+
+Syntax :
+        list.reverse()

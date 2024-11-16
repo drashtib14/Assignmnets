@@ -1,0 +1,19 @@
+Q - Accessing tuple elements using positive and negative indexing.
+
+1) positive indexing : In positive indexing, the first element of the tuple has an index of 0, the second element has an index of 1, and so on.
+
+my_tuple = ('apple', 'banana', 'cherry', 'date')
+
+print(my_tuple[0])  # Output: 'apple'
+print(my_tuple[1])  # Output: 'banana'
+print(my_tuple[2])  # Output: 'cherry'
+print(my_tuple[3])  # Output: 'date'
+
+--------------------------------------------------------------------------------------------------------
+
+2) negative indexing : Negative indexing allows you to access elements from the end of the tuple. The last element has an index of -1, the second last has an index of -2, and so on.
+
+print(my_tuple[-1])  # Output: 'date'
+print(my_tuple[-2])  # Output: 'cherry'
+print(my_tuple[-3])  # Output: 'banana'
+print(my_tuple[-4])  # Output: 'apple'

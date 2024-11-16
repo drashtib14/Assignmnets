@@ -1,0 +1,39 @@
+Q - Accessing, adding, updating, and deleting dictionary elements.
+
+1) Accessing : To access a value, use the key inside square brackets [] or the get() method.
+
+# dictionary
+person = {"name": "Alice", "age": 25, "city": "New York"}
+
+# getting the value of key name
+print(person["name"]) # Output: 'Alice'
+
+# getting the value of age by using get() 
+print(person.get("age"))  # Output: 25
+
+--------------------------------------------------------------------------------------------------------
+
+2) Adding : Simply assign a value to a key. If the key already exists, it will update; if it doesn’t, it will add a new pair.
+
+person = {"name": "Alice", "age": 25, "city": "New York"}
+
+person["occupation"] = "Engineer" # adds the key
+
+--------------------------------------------------------------------------------------------------------
+
+3) Updating : 
+
+person = {"name": "Alice", "age": 25, "city": "New York"}
+
+person["age"] =  # updates the key
+--------------------------------------------------------------------------------------------------------
+
+4) Deleting :
+
+person = {"name": "Alice", "age": 25, "city": "New York"}
+
+# by using del statement
+del person["city"] # removes the city key and value pair
+
+# by using pop() method
+person.pop("age")

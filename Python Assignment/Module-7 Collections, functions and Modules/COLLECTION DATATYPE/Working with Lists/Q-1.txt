@@ -1,0 +1,49 @@
+Q - Iterating over a list using loops.
+
+When we need to go through each item in a list one by one, loops are used.
+Iterating over a list can be done using for loop and while loop.
+
+1) Using for loop :
+
+my_list = [10, 20, 30, 40]
+
+for num in my_list:
+    print(num)
+
+Output :
+10
+20
+30
+40
+
+-------------------------------------------------------------------------------------------------------
+
+2) Using for loop with range() and len() :
+
+my_list = [10, 20, 30, 40]
+
+for num in range(len(my_list)):
+    print(my_list[num])
+
+Output :
+10
+20
+30
+40
+
+-------------------------------------------------------------------------------------------------------
+
+3) Using while loop :
+
+my_list = [10, 20, 30, 40]
+
+i = 0
+while i < len(my_list):
+    print(my_list[i])
+    i += 1
+
+Output :
+10
+20
+30
+40

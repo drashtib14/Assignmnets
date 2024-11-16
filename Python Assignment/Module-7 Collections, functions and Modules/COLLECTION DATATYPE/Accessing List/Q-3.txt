@@ -1,0 +1,37 @@
+Q - Slicing a list: accessing a range of elements.
+
+Definition :
+Slicing can be used to access elements from a list in a specified order and to select the number of elements you need.
+----------------------------------------------------------------------------------------------------
+
+Syntax :
+    my_list[start:end:step]
+
+Start: Defines the position from where the slicing will begin.
+End: Defines where the slicing will stop.
+Step: Defines the steps between the selected elements. By default the step is 1.
+----------------------------------------------------------------------------------------------------
+
+Code :
+my_list = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape']
+    
+print(my_list[0:6:2])
+    it will print ['apple', 'cherry', 'elderberry'] in the order/step of 2.
+
+print(my_list[0:2])
+    it will print ['apple', 'banana'].
+
+print(my_list[-5:-1])
+    it will print ['cherry', 'date', 'elderberry', 'fig'].
+
+print(my_list[2:])
+    it will print all the elements starting from 2nd postition which is cherry from the list.
+
+print(my_list[:2])
+    it gets all the Items Before a Specific Position
+    
+print(my_list[::2])
+    gets all the elements in the order/step of 2.
+
+print(my_list[::-2])
+    gets all the elements in the order/step of 2 but it is starting from end of the list.

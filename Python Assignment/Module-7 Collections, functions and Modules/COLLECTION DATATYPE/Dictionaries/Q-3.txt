@@ -1,0 +1,26 @@
+Q - Dictionary methods like keys(), values(), and items().
+
+1) keys() : The keys() method returns all the keys from dictionary. It's elements are displayed as key inside a dictionary.
+
+Syntax :
+    dictionary.keys()
+
+e.g: dict_keys(['name', 'age', 'city'])
+
+--------------------------------------------------------------------------------------------------------
+
+2) values() : The values() method returns all the values of the keys from the dictionary. It's elements are displayed as values inside a dictionary.
+
+Syntax :
+    dictionary.values()
+
+e.g: dict_keys(['Alice', 25, 'New York'])
+
+--------------------------------------------------------------------------------------------------------
+
+3) items() : The items() method returns key-value pair from the dictionary. It's elements are displayed as tuple inside a list in a dictionary.
+
+Syntax :
+    dictionary.items()
+
+e.g: dict_items([('name', 'Alice'), ('age', 25), ('city', 'New York')])

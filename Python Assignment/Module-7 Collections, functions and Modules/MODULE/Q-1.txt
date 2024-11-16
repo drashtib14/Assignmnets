@@ -1,0 +1,11 @@
+Q - Introduction to Python modules and importing modules.
+
+Module is a collection of pre defined functions.
+
+A module in Python is a file that contains Python code, such as functions, classes, and variables, which can be reused in other programs.
+
+
+There are 3 types of module.
+1. built-in module
+2. user defined module
+3. Third-party module - can be installed by pip

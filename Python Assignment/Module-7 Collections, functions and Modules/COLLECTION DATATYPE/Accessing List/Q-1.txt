@@ -1,0 +1,28 @@
+Q - Understanding how to create and access elements in a list.
+
+Creating List :
+There's 2 ways to create a list.
+1) by using [] brackets.
+    my_list = [10, 20, 30, 40]
+    print(my_list)
+
+2) by using list() method.
+    my_list1 = list((10, 20, 30, 40))
+    print(my_list1)
+----------------------------------------------------------------------------------------------------
+
+Accessing List :
+1) Indexing : List can be accessed by using indexing. The first element of list has 0 index postition.
+
+print(my_list[0])
+    this will print first element from the list which is 10 in the output.
+
+print(my_list[1])
+    this code will print 2nd position element of the list which is 20.
+
+2) Negative indexing : The negative indexing starts from -1, which will give you the last element from the list and -2 for second last element and so on.
+
+print(my_list[-1])
+    this will print 40 from the list.
+print(my_list[-2])
+    this will print 30 from the list.

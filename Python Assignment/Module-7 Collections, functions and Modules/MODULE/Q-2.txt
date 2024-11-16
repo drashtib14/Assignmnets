@@ -1,0 +1,12 @@
+Q - Standard library modules: math, random.
+
+Python provides a Standard Library of modules to handle various tasks.
+Two commonly used modules are math and random.
+
+1) Math Module : The math module provides mathematical functions. 
+It is useful for numerical operations such as factorial , PI, sqrt, pow and more.
+--------------------------------------------------------------------------------------------------------
+
+2) Random Module : The random module is used to generate random numbers and make random selections. 
+It’s great for simulations, games, and sampling tasks.
+Random moudle has functions like random, randint, choice and more.
