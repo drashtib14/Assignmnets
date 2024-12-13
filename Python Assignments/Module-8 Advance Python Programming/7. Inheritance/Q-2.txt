@@ -1,0 +1,8 @@
+Q - Using the super() function to access properties of the parent class.
+
+
+The super() function is used to call methods from a parent in the child class.
+It is used when you want to access or modify the parent class's properties or methods inside a subclass.
+
+Syntax :
+    super().method_name(arguments)

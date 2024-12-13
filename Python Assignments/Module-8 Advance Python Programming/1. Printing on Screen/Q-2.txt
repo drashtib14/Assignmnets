@@ -1,0 +1,14 @@
+Q - Formatting outputs using f-strings and format().
+
+f-string :
+f-strings are a concise and efficient way to format strings in Python. It was introduced in Python 3.6.
+
+e.g:
+    print(f"My name is {name} and I am {age} years old.")
+
+format() :
+The format() method formats strings by replacing values into placeholders {}.
+Values are passed as arguments to the format() method, which fills in the placeholders in the string.
+
+e.g:
+    print("My name is {} and I am {} years old.".format("Drashti", 21))

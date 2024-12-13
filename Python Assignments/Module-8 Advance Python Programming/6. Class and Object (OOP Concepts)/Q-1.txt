@@ -1,0 +1,18 @@
+Q - Understanding the concepts of classes, objects, attributes, and methods in Python.
+
+Class :
+    A class is like a blueprint or template for creating objects.
+    Class is collection of data members and member function.
+    It defines the structure and behavior of objects.
+
+Objects :
+    An object is an instance of a class.
+    Each object has its own data and behavior as defined in the class.
+
+Attributes :
+    Attributes are the data or properties associated with an object.
+    They are variables that belong to the object.
+
+Methods :
+    Methods are functions defined inside a class.
+    Methods take self as the first parameter, representing the object calling the method.

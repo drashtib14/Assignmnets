@@ -1,0 +1,15 @@
+Q - Introduction to exceptions and how to handle them using try, except, and finally.
+
+Exceptions are errors that occur during the execution of a program.
+They interrupt the normal flow of the program, but you can handle them using try and except block.
+
+Try block contains your main code and except handles errors if any occurs and finally always executes code wether the code runs or gives an exception.
+
+
+e.g :
+    try:
+    # main code
+    except ExceptionType:
+        # code to handle the exception
+    finally:
+        # code that always runs in both conditions

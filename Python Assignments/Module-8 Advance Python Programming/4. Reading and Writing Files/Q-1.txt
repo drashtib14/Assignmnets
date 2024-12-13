@@ -1,0 +1,14 @@
+Q - Reading from a file using read(), readline(), readlines().
+
+The methods read(), readline(), and readlines() are used to read the contents of a file in different ways.
+
+1. read() :
+    Reads the entire content of a file as a single string.
+
+2. readline() :
+    Reads one line from the file at a time.
+    Each call to readline() moves to the next line.
+
+3. readlines() :
+    Reads all lines from the file and returns them as a list of strings.
+    each string in the list represents a single line, including the newline character (\n).

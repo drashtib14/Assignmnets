@@ -1,0 +1,21 @@
+Q - Understanding multiple exceptions and custom exceptions.
+
+Handling custom exceptions :
+    we can separate except blocks to handle different exceptions.
+
+    e.g :
+        try:
+            # main code
+        except ValueError:
+            # custom messege
+        except ZeroDivisionError:
+            # custom messege
+
+Handling Multiple Exceptions :
+    We can group exceptions in a single except block using a tuple.
+
+    e.g :
+        try:
+            # main code
+        except (ZeroDivisionError, ValueError) as e:
+            # code for exception

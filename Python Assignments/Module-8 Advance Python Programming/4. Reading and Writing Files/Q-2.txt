@@ -1,0 +1,10 @@
+Q - Writing to a file using write() and writelines().
+
+The write() and writelines() methods are used to write content to a file.
+
+1. write() :
+    Writes a single string to the file.
+    we can use "\n" for a new line.
+
+2. writelines() :
+    Writes a list of strings to the file.

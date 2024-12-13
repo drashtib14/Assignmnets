@@ -1,0 +1,4 @@
+Q - Converting user input into different data types (e.g., int, float, etc).
+
+User input from the input() function is always received as a string by default.
+To use it as a different data type, typecasting is necessary. Typecasting converts the string into the desired data type.

@@ -1,0 +1,4 @@
+Q - Method overloading: defining multiple methods with the same name but different parameters.
+
+Method overloading allows defining multiple methods with the same name but different parameters.
+In python method overloading is not supported.

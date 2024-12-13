@@ -1,0 +1,13 @@
+Q - Opening files in different modes ('r', 'w', 'a', 'r+', 'w+').
+
+
+The open() function is used to open files in various modes.
+open() takes 2 arguments. First is filename and second is mode.
+The mode defines how the file should be handled whether it’s for reading, writing or appending.
+
+Modes :
+    'r'  : Opens the file for reading. Default mode. File must exist.
+    'w'  : Opens the file for writing. Creates a new file if it doesn’t exist, or overwrites if it does.
+    'a'  : Opens the file for appending. Creates a new file if it doesn’t exist. Appends data to the end without overwriting.
+    'r+' : Opens the file for both reading and writing. File must exist.
+    'w+' : Opens the file for both reading and writing. Creates a new file if it doesn’t exist, or overwrites it.

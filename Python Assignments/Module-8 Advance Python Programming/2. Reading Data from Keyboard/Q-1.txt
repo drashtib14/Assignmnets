@@ -1,0 +1,4 @@
+Q - Using the input() function to read user input from the keyboard.
+
+The input() function is used to read user input from the keyboard as a string.
+It’s one of the simplest ways to interact with users and capture their responses during a program's execution.

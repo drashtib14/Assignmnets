@@ -1,0 +1,6 @@
+Q - Method overriding: redefining a parent class method in the child class.
+
+
+Method overriding refers to defining a method in a subclass with the same name as a method in its superclass.
+
+The child class's method overrides the parent class's method, allowing the child to customize or completely change the behavior of the inherited method.

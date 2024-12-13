@@ -1,0 +1,7 @@
+Q - Closing files using close().
+
+The close() method is used to close a file after it has been opened.
+Closing a file ensures that any changes made to it are saved properly.
+To avoid errors. open files left unclosed can lead to memory leaks or file access conflicts in some cases.
+
+For best practices using the with statement is recommended because it automatically closes the file when the block is exited, even if an error occurs.

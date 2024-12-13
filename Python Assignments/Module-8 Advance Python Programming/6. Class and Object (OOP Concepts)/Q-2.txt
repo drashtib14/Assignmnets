@@ -1,0 +1,9 @@
+Q - Difference between local and global variables.
+
+Local variable :
+    Local variables are declared inside a function or block and can only be accessed within that function or block.
+    They exist only while the function is executing and are destroyed once the function ends.
+
+Global variable :
+    Global variables are declared outside of all functions or blocks and can be accessed and modified from anywhere in the program.
+    They exist for the duration of the program’s execution.

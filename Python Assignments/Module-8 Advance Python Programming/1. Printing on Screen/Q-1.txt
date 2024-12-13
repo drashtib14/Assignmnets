@@ -1,1 +1,4 @@
-Introduction to the print() function in Python.
+Q - Introduction to the print() function in Python.
+
+The print() function in Python is one of the most commonly used functions.
+It is used to display information like text and variables in the console.

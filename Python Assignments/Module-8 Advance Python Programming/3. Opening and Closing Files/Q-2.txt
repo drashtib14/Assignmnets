@@ -1,0 +1,4 @@
+Q - Using the open() function to create and access files.
+
+The open() function is used to create and access files.
+It allows you to interact with files in different modes, such as reading, writing, or appending content.
