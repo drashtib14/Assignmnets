@@ -1,5 +1,6 @@
 # Write a Python program to demonstrate the use of super() in inheritance.
 
+# base class
 class A:
     def __init__(self,num1,num2):
         self.num1 = num1
@@ -10,6 +11,7 @@ class A:
         print("num1 =  ",self.num1)
         print("num2 =  ",self.num2)
 
+# derived class
 class B(A):
     def __init__(self,num1,num2,num3):
         super().__init__(num1,num2)
@@ -21,6 +23,7 @@ class B(A):
         print("num2 =  ",self.num2)
         print("num3 = ",self.num3)
 
+# taking input from user
 n1 = int(input("Enter number 1: "))
 n2 = int(input("Enter number 2: "))
 n3 = int(input("Enter number 3: "))

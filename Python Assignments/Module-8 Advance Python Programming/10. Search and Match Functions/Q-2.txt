@@ -1,0 +1,8 @@
+Q - Difference between search and match.
+
+
+            re.match()                             re.search()
+----------------------------------------------------------------------------------
+it matches only at the start of string.	    it scans the entire string.
+it returns None if no match at start.	    it also returns None if no match found.
+it ensures a match occurs at the start.	    it finds a match anywhere in the text.

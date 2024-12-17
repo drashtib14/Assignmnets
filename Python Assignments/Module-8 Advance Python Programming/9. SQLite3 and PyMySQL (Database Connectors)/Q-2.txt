@@ -1,0 +1,26 @@
+Q - Creating and executing SQL queries from Python using these connectors.
+
+1. Using SQLite3 :
+
+Steps to Execute SQL Queries with SQLite3:
+    1. Connect to the Database: Use sqlite3.connect() to connect to a database (or create one if it doesn’t exist).
+    2. Create a Cursor Object: Use connection.cursor() to execute SQL queries.
+    3. Write and Execute Queries:
+        1. Use execute() for single queries.
+        2. Use executemany() for multiple queries.
+    4. Commit Changes: Save changes using connection.commit().
+    5. Fetch Results: Use methods like fetchone(), fetchall(), etc.
+    6. Close the Connection: Use connection.close().
+
+
+2. Using PyMySQL :
+
+Steps to Execute SQL Queries with PyMySQL:
+    1. Connect to the Database: Use pymysql.connect() with the host, username, password, and database name.
+    2. Create a Cursor Object: Use connection.cursor() to execute SQL queries.
+    3. Write and Execute Queries:
+        1. Use execute() for single queries.
+        2. Use executemany() for multiple queries.
+    4. Commit Changes: Save changes using connection.commit().
+    5. Fetch Results: Retrieve data using methods like fetchone(), fetchall(), etc.
+    6. Close the Connection: Use connection.close().

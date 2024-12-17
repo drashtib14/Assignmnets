@@ -1,0 +1,14 @@
+Q - Introduction to SQLite3 and PyMySQL for database connectivity.
+
+Python provides libraries like SQLite3 and PyMySQL to interact with databases.
+SQLite3 is used for small to medium-sized applications or when you need a database without a separate server.
+
+
+PyMySQL allows Python programs to interact with MySQL servers for more complex and larger-scale applications.
+
+Basic Steps in PyMySQL:
+    1. Install PyMySQL (pip install pymysql).
+    2. Connect to the MySQL server (host, user, password, database).
+    3. Create a cursor object to execute SQL commands.
+    4. Perform database operations.
+    5. Commit changes and close the connection.

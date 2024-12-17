@@ -1,0 +1,14 @@
+Q - Using re.search() and re.match() functions in Python’s re module for pattern matching.
+
+re which means Regular Expression is a sequence of characters that forms a search pattern.
+re is an in-built function which is used to check if a string contains the specified search pattern.
+
+re.search() and re.match() both functions return a match object if a match is found otherwise they return None.
+
+
+re.search() :
+    The search() function will go through the entire string for the first occurrence of the pattern.
+
+
+re.match() :
+    The match() function attempts to match a pattern only at the beginning of the string.
